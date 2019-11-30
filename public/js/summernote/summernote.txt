@@ -1,0 +1,12 @@
+ $('#summernoteCarateristiques').summernote({
+			    lang: 'fr-FR' ,// default: 'en-US'
+			    toolbar: [
+			        // [groupName, [list of button]]
+			        ['style', ['bold', 'italic', 'underline', 'clear']],
+			        ['font', ['strikethrough', 'superscript', 'subscript']],
+			        ['fontsize', ['fontsize']],
+			        ['color', ['color']],
+			        ['para', ['ol', 'paragraph']],
+			        ['height', ['height']]
+			      ]
+		  });
